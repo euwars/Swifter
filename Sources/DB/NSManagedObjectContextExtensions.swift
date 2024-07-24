@@ -7,7 +7,6 @@
 
 import CoreData
 import Foundation
-import SwifterJSON
 
 extension NSManagedObjectContext {
   // MARK: - Creation
