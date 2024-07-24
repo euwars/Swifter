@@ -5,8 +5,6 @@
 //  Copyright © 2021 Rok Gregoric. All rights reserved.
 //
 
-import SwifterJSON
-
 extension BaseRequest {
   func requestJSON(completion: @escaping Block3<JSON, Int?, Error?>) {
     request { data, status, err in Run.main { completion(JSON(data), status, err) } }
